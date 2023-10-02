@@ -1,0 +1,32 @@
+@import "colors";
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/Greeny.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >button{
+        border: none;
+        outline: none;
+        padding: 1rem 2rem;
+        background-color: white;
+        color: $lightdark;
+        cursor: pointer;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+
+        >svg{
+            margin-left: 1rem;
+        }
+        &:hover{
+            color: $dark;
+        }
+    }
+}
